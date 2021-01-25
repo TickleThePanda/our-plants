@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Spotty aloe",
+    "latin-name": "Aloe vera var. chinensis",
+    "watering": "Deeply but infrequently, allowing the top layer to dry before watering",
+    "lighting": "Bright direct in the winter; bright indirect in the summer",
+    "humidity": "Average to dry room",
+    "temperature": "13-27 °C",
+    "feeding": "Every 3-4 weeks, in the summer, with half-strength nitrogen based food",
+    "soil": "Well drained cacti soil"
+  },
+  {
+    "name": "Old aloe",
+    "latin-name": "Aloe vera var. barbadensis",
+    "watering": "Deeply but infrequently, allowing the top layer to dry before watering",
+    "lighting": "Bright direct in the winter; bright indirect in the summer",
+    "humidity": "Average to dry room",
+    "temperature": "13-27 °C",
+    "feeding": "Every 3-4 weeks, in the summer, with half-strength nitrogen based food",
+    "soil": "Well drained cacti soil"
+  },
+  {
+    "name": "Zeezee",
+    "latin-name": "Zamioculcas zamifolia raven",
+    "watering": "Dry out fully between watering",
+    "lighting": "Almost any light level except total darkness or harsh sun",
+    "humidity": "Not important",
+    "temperature": "13-26 °C",
+    "feeding": "Once in spring, once in summer",
+    "soil": "Any well-drained potting soil"
+  },
+  {
+    "name": "Snek plent",
+    "latin-name": "Dracaena trifasciata var. laurentii",
+    "watering": "In summer, keep soil lightly moist; in winter, just enough so soil doesn't dry out",
+    "lighting": "Bright light to full sun but will tolerate low light",
+    "humidity": "Average room",
+    "temperature": "16-24 °C",
+    "feeding": "Feed monthly from spring to autumn",
+    "soil": "Soilless or cactus potting mix"
+  },
+  {
+    "name": "Dragon tree",
+    "latin-name": "Dracaena marginata",
+    "watering": "Lightly moist spring through autumn; slightly drier in winter",
+    "lighting": "Bright indirect; avoid direct sunlight in summer",
+    "humidity": "Average room",
+    "temperature": "18-24 °C",
+    "feeding": "Every two weeks in spring and summer",
+    "soil": "Good quality all-purpose"
+  },
+  {
+    "name": "Spider plant",
+    "latin-name": "Chlorophytum comosum var. vitatum",
+    "watering": "Keep soil evenly moist; avoid flouride",
+    "lighting": "Bright indirect",
+    "humidity": "Moderate",
+    "temperature": "18-24 °C",
+    "feeding": "Every two weeks through summer with half strength",
+    "soil": "Peat moss-based potting mix"
+  },
+  {
+    "name": "Moth orchid",
+    "latin-name": "Phalaenopsis Red Lip",
+    "watering": "Regular warm water; never cold water",
+    "lighting": "Moderately light or dappled",
+    "humidity": "Medium to high humidity",
+    "temperature": "16-19 °C night; 19-30 °C day",
+    "feeding": "Weekly with weak orchid food",
+    "soil": "Orchid mix"
+  },
+  {
+    "name": "Christmas cactus",
+    "latin-name": "Schlumbergera brigesli",
+    "watering": "Water thoroughly but don't let it sit in water",
+    "lighting": "Lots of bright indirect light",
+    "humidity": "Medium to high humidity",
+    "temperature": "To flower 16-18 °C day and 7-13 °C night; otherwise, 16-24 °C",
+    "feeding": "Every two weeks spring through autumn",
+    "soil": "Well draining"
+  },
+  {
+    "name": "Mosaic plant (nerve plant)",
+    "latin-name": "Fittonia verschaffeltii",
+    "watering": "Allow soil to dry slightly between waterings",
+    "lighting": "Low to medium; avoid direct sunlight",
+    "humidity": "High",
+    "temperature": "18-24 °C",
+    "feeding": "Every two to three months sprint through autumn",
+    "soil": "Peat based with added pearlite"
+  },
+  {
+    "name": "Peace lily",
+    "latin-name": "Spathiphyllum wallisii",
+    "watering": "Keep soil evenly moist but don't let it sit in water",
+    "lighting": "Bright light; avoid direct sunlight",
+    "humidity": "Average room",
+    "temperature": "18-24 °C",
+    "feeding": "Every month in spring and summer with half strength",
+    "soil": "Peat moss-based mix"
+  },
+  {
+    "name": "Bird nest fern",
+    "latin-name": "Asplenium nidus",
+    "watering": "Evenly moist but don't let it sit in water",
+    "lighting": "Bright indirect light; avoid direct sunlight",
+    "humidity": "High",
+    "temperature": "16-24 °C",
+    "feeding": "Every two weeks in spring and summer with half strength",
+    "soil": "Peat moss-based mix"
+  },
+  {
+    "name": "Pink quill plant",
+    "latin-name": "Wallisia cyanea",
+    "watering": "Spray with water until leaves are thoroughly wet two to three times a week; rain water or filtered tap water",
+    "lighting": "Bright indirect light; avoid direct sunlight",
+    "humidity": "Average room",
+    "temperature": "18-24 °C",
+    "feeding": "Foliar fertiliser for wallisia once a month in spring and summer",
+    "soil": "Loose fine grade bark mix"
+  },
+  {
+    "name": "Money tree (jade plant)",
+    "latin-name": "Crassula ovata",
+    "watering": "Allow soil to dry out between waterings",
+    "lighting": "Bright light with some direct sun",
+    "humidity": "Dry to average",
+    "temperature": "18-24 °C",
+    "feeding": "Monthly from spring through autumn with half strength succulent fertiliser",
+    "soil": "Fast draining soil"
+  },
+  {
+    "name": "Spik",
+    "latin-name": "Pilosocereus lanuginosus",
+    "watering": "Allow soil to dry out completely inbetween waterings; regularly in the summer",
+    "lighting": "Full sun",
+    "humidity": "Dry to average",
+    "temperature": "Minimum 13 °C; prefers hot",
+    "feeding": "Once a year with cactus food",
+    "soil": "Cactus mix"
+  }
+
+]

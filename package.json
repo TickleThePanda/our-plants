@@ -1,0 +1,29 @@
+{
+  "name": "house-plants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch",
+    "ws": "live-server ./site --port=8000 --mount='/admin/*':'/admin/' --no-browser --no-css-inject --wait=300 --middleware=../../src/dev/middleware/no-cache.js",
+    "tunnel": "ngrok http 8000 --log 'stdout' --log-format 'logfmt' --region 'eu'",
+    "dev": "npm run build; concurrently \"gulp watch\" \"npm run ws\"",
+    "dev-tunnel": "npm run build; concurrently \"gulp watch\" \"npm run ws\" \"npm run tunnel\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-shell": "^0.8.0",
+    "gulp-util": "^3.0.8",
+    "liquidjs": "^9.20.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "live-server": "^1.2.1",
+    "ngrok": "^3.4.0"
+  }
+}
