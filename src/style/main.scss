@@ -5,6 +5,7 @@ body {
   font-size: 95%;
 
   font-family: "Merriweather", serif;
+  background-color: #ffdbd6;
 }
 
 i {
@@ -17,6 +18,7 @@ i {
   top: 0.2rem;
   margin-left: -0.05rem;
 }
+
 
 h1 {
   color: #213c1b;
@@ -33,11 +35,15 @@ h2 {
   margin: 1em;
   padding: 1em;
   background-color: #213c1b;
-  color: #ffb99e;
+  color: #ffffff;
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(Min(100%, 25em), 1fr));
   gap: 1.5em;
+
+  i {
+    color: #dba49d;
+  }
 }
 
 .plant {
