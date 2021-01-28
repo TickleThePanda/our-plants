@@ -6,10 +6,11 @@ layout: default
 <h1>Our pl<i class="fab fa-pagelines heading-a-replacement"></i>nts</h1>
 
 <div class="plants">
+  <h2>Indoor plants</h2>
   {% assign sorted-plants = plants | sort: "latin-name" %}
   {% for plant in sorted-plants %}
     <div class="plant">
-      <h2>{{ plant.name }}</h2>
+      <h3 class="name">{{ plant.name }}</h3>
       <p class="latin-name">{{ plant.latin-name }}
       <dl>
         <dt><i class="fas fa-faucet"></i>
@@ -30,6 +31,19 @@ layout: default
         <dt><i class="fas fa-layer-group"></i>
         <dd>{{ plant.soil }}
       </dl>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="plants obituaries">
+  <h2>Obituaries</h2>
+  {% assign sorted-obituaries = obituaries | sort: "latin-name" %}
+  {% for obituary in sorted-obituaries %}
+    <div class="plant">
+      <h3 class="name">{{ obituary.name }}</h3>
+      <p class="latin-name">{{ obituary.latin-name }}
+      <p class="life-dates">{{ obituary.life }}
+      <p>{{ obituary.epitaph }}
     </div>
   {% endfor %}
 </div>

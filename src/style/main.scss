@@ -27,13 +27,13 @@ h1 {
   letter-spacing: 0.1em;
 }
 
-h2 {
-  line-height: 1;
+.content {
+  padding: 1em;
 }
 
 .plants {
-  margin: 1em;
-  padding: 1em;
+  padding: 1rem;
+  margin-top: 2rem;
   background-color: #213c1b;
   color: #ffffff;
 
@@ -44,9 +44,32 @@ h2 {
   i {
     color: #dba49d;
   }
+
+  & > h2 {
+    grid-column: 1 / -1;
+    line-height: 1;
+    margin-bottom: -0.5em;
+    color: #dba49d;
+    text-align: center;
+  }
+}
+
+.plants.obituaries {
+  text-align: center;
 }
 
 .plant {
+
+  .title {
+    line-height: 1;
+  }
+
+  .life-dates {
+    font-size: 1.4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
   dl {
     display: grid;
     grid-template-columns: min-content auto;
@@ -57,6 +80,7 @@ h2 {
     justify-self: center;
   }
 }
+
 
 .latin-name {
   font-style: italic;
